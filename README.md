@@ -44,7 +44,7 @@ vpn_static_routes = [
     destination_cidr_block = "172.4.0.0/16"
   },
 ]
-
+```
       
 
 ```
@@ -53,6 +53,5 @@ module "aws_vpn_gateway" {
   vpn_attachment_name = var.vpn_attachment_name
   static_routes       = var.vpn_static_routes
 }
-
 
 ```
